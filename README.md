@@ -1,11 +1,16 @@
-## PetPost (Client)
+## PetPost 2.0 (Client)
+
+### Actively improving with Claude AI 👾
 
 ### [Sign Up](https://pet-post-client.vercel.app/)
 
 #### ⛔ NOTE ⛔ PetPost has no hard securty or auth checks in place. This is purely a personal project created for fun and learning purposes. Do not sign up with or share any sensitive information.
 
+##### This 2.0 repository aims to enhance PetPost — an earlier, pre-AI project — by improving its functionality, design, and overall user experience utilizing Claude AI.
+
 - A full stack social media application for pets. Built with React, TypeScript, CSS, and Express.
 - Designed in [Figma](https://www.figma.com/file/S1QPEz3rVQNjMLCspnZqYz/PetPost?type=design&node-id=0-1&mode=design&t=yD9XkKgQq5gVULbn-0).
+- Cloned from [original petpost client](https://github.com/johnyevsukov/pet-post-client)
 - Utilizes the [PetPost API](https://github.com/johnyevsukov/pet-post-api).
 - Client hosted on [Vercel](https://vercel.com/).
 - API hosted on [Heroku](https://www.heroku.com/).
