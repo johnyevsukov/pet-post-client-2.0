@@ -1,4 +1,3 @@
-<img width="868" height="677" alt="Screenshot 2026-04-29 at 8 44 48 PM" src="https://github.com/user-attachments/assets/c4f04ec4-8ba3-471d-b185-ac048ae46a47" />
 ## PetPost 2.0 (Client)
 
 ### Actively improving with Claude AI 👾
@@ -83,6 +82,7 @@ The biggest improvement opportunity is **API efficiency (eliminating the N+1 req
 
 ## Screen Shots
 
+<img width="868" height="677" alt="Screenshot 2026-04-29 at 8 44 48 PM" src="https://github.com/user-attachments/assets/c4f04ec4-8ba3-471d-b185-ac048ae46a47" />
 <img width="1439" alt="Screenshot 2023-08-03 at 11 34 01 PM" src="https://github.com/johnyevsukov/pet-post-client/assets/10480867/2c13bd7d-385e-4b91-b961-368e91794087">
 <img width="1440" alt="Screenshot 2023-08-03 at 11 35 20 PM" src="https://github.com/johnyevsukov/pet-post-client/assets/10480867/cf3dd385-66a0-487b-b190-1d3342e9261f">
 <img width="1437" alt="Screen Shot 2023-07-30 at 1 02 54 AM" src="https://github.com/johnyevsukov/pet-post-client/assets/10480867/64371ede-fb0f-4574-acfe-f3c50a98305f">
