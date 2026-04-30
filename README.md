@@ -17,6 +17,69 @@
 - UI viewable via [Storybook](https://storybook.js.org/) stories.
 - Demo account login available for quick testing.
 
+## 🤖 Claude’s Assessment of This Project
+
+Below is an AI-generated review of the project highlighting strengths, weaknesses, and areas for improvement.
+
+---
+
+### ✅ What’s Strong
+
+- **Solid architectural design** using Atomic Design (atoms → molecules → organisms → templates → pages)
+- **Well-structured custom hooks** that cleanly separate business logic from UI (`useFeedPosts`, `usePost`, `useProfilePosts`, etc.)
+- **Industry-standard stack choices**: TypeScript, Formik, and Yup for form handling
+- **Storybook integration** for component documentation and development
+- **Good use of `Promise.all`** to parallelize API requests in `usePost`
+- Overall structure is comparable to a **junior-level production codebase**
+
+---
+
+### ⚠️ Main Issue
+
+#### N+1 API Request Problem
+
+Each `PostCard` triggers multiple API calls on mount (user data, likes, comments).  
+With ~10 posts in a feed, this results in ~30 simultaneous requests.
+
+This is the most significant performance issue in the project.
+
+> You even noted this yourself in `usePost.ts`:
+>
+> “Ideally this whole hook should not be necessary. Any needed post user data should come from API when initially fetching posts.”
+
+That awareness is a strong signal of good engineering intuition.
+
+---
+
+### 🧩 Smaller Issues / Improvements
+
+- **Hardcoded API URL** in `axiosAuth.ts`  
+  → Should use `process.env.REACT_APP_API_URL`
+
+- **Missing React keys** in `comments.map()` (`PostCard.tsx:101`)  
+  → Causes React warnings
+
+- **Generic error handling in `Settings.tsx`**  
+  → Error message is hardcoded instead of using actual API response
+
+- **Type safety improvement needed in `usePost.ts`**  
+  → `useState()` should be explicitly typed (e.g. `useState<string>()`)
+
+- **Security note**  
+  → Storing tokens in `localStorage` is vulnerable to XSS (acceptable for portfolio projects, but not production-safe)
+
+---
+
+### 🧾 Overall Summary
+
+This is **well above average for a personal project**.
+
+The architecture, separation of concerns, and tooling choices reflect a developer who understands real-world frontend patterns.
+
+The biggest improvement opportunity is **API efficiency (eliminating the N+1 request pattern)**.
+
+---
+
 ## Screen Shots
 
 <img width="1439" alt="Screenshot 2023-08-03 at 11 34 01 PM" src="https://github.com/johnyevsukov/pet-post-client/assets/10480867/2c13bd7d-385e-4b91-b961-368e91794087">
