@@ -64,7 +64,7 @@ export const Home: React.FC = () => {
         <TitleTypedSubtext
           title="PetPost"
           iconName="hamster"
-          typedSubtext="Log in or sign up to connect with your pals!"
+          typedSubtext="Actively improving with Claude AI!"
           minMobileHeight={110}
         />
       </PageContentColumn>
