@@ -89,7 +89,7 @@ export const Home: React.FC = () => {
         </VStack>
       </PageContentColumn>
       <styles.GithubLink
-        href="https://github.com/johnyevsukov/pet-post-client"
+        href="https://github.com/johnyevsukov/pet-post-client-2.0"
         target="_blank"
         rel="noopener noreferrer"
       >
