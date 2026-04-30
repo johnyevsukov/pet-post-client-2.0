@@ -53,7 +53,7 @@ export const Home: React.FC = () => {
       <styles.WebsiteBanner>
         <styles.TextLink
           as="a"
-          href="https://www.john.engineering/"
+          href="https://www.johnyevsukov.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
