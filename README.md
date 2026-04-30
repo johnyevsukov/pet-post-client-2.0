@@ -1,3 +1,4 @@
+<img width="868" height="677" alt="Screenshot 2026-04-29 at 8 44 48 PM" src="https://github.com/user-attachments/assets/c4f04ec4-8ba3-471d-b185-ac048ae46a47" />
 ## PetPost 2.0 (Client)
 
 ### Actively improving with Claude AI 👾
