@@ -2,7 +2,7 @@
 
 ### Actively improving with Claude AI 👾
 
-### [Sign Up](https://pet-post-client.vercel.app/)
+### [Sign Up](https://pet-post-client-2-0.vercel.app/)
 
 #### ⛔ NOTE ⛔ PetPost has no hard securty or auth checks in place. This is purely a personal project created for fun and learning purposes. Do not sign up with or share any sensitive information.
 
